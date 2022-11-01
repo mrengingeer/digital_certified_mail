@@ -9,6 +9,7 @@ Both sides need to generate random DES keys for encryption and encrypt receipts 
 bogus message that is to be sent by the Sender. Oblivious transfer protocol will be used on both
 sides for transferring the keys to each other. The project was built using Java through Netbean
 8.2 for its implementation.
+
 Oblivious Transfer Protocol(OT) is a mechanism for a receiver that wants to get a
 specific text or message from a sender without letting the sender know its selection, and the
 sender will send all encrypted messages based on the protocol oblivious to the receiver and it
@@ -22,6 +23,7 @@ efficient 𝑂𝑇 and from . In this project, will be the right approach for se
 2
 up the foundation of transferring messages. Further discussion will be discussed in the design
 and implementation parts.
+
 Partial Secrets Exchange Subprotocol(PSE) will also be used for the transaction protocols
 for preventing the sender from forge a receipt. There will be two parties to the subprotocol and it
 will be called A and B. The proposal is that A holds 2n secrets that are all recognizable by B
